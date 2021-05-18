@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetEtiquetaIzote" targetNamespace="http://tempuri.org/DataSetEtiquetaIzote.xsd" xmlns:mstns="http://tempuri.org/DataSetEtiquetaIzote.xsd" xmlns="http://tempuri.org/DataSetEtiquetaIzote.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetEtiquetaIzote" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetEtiquetaIzote" msprop:Generator_UserDSName="DataSetEtiquetaIzote">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_eti_izote" msprop:Generator_TableClassName="tbl_eti_izoteDataTable" msprop:Generator_TableVarName="tabletbl_eti_izote" msprop:Generator_RowChangedName="tbl_eti_izoteRowChanged" msprop:Generator_TablePropName="tbl_eti_izote" msprop:Generator_RowDeletingName="tbl_eti_izoteRowDeleting" msprop:Generator_RowChangingName="tbl_eti_izoteRowChanging" msprop:Generator_RowEvHandlerName="tbl_eti_izoteRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_eti_izoteRowDeleted" msprop:Generator_RowClassName="tbl_eti_izoteRow" msprop:Generator_UserTableName="tbl_eti_izote" msprop:Generator_RowEvArgName="tbl_eti_izoteRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_etiqueta" msprop:Generator_ColumnVarNameInTable="columnid_etiqueta" msprop:Generator_ColumnPropNameInRow="id_etiqueta" msprop:Generator_ColumnPropNameInTable="id_etiquetaColumn" msprop:Generator_UserColumnName="id_etiqueta" type="xs:string" minOccurs="0" />
+              <xs:element name="numero" msprop:Generator_ColumnVarNameInTable="columnnumero" msprop:Generator_ColumnPropNameInRow="numero" msprop:Generator_ColumnPropNameInTable="numeroColumn" msprop:Generator_UserColumnName="numero" type="xs:string" minOccurs="0" />
+              <xs:element name="wk" msprop:Generator_ColumnVarNameInTable="columnwk" msprop:Generator_ColumnPropNameInRow="wk" msprop:Generator_ColumnPropNameInTable="wkColumn" msprop:Generator_UserColumnName="wk" type="xs:string" minOccurs="0" />
+              <xs:element name="variedad" msprop:Generator_ColumnVarNameInTable="columnvariedad" msprop:Generator_ColumnPropNameInRow="variedad" msprop:Generator_ColumnPropNameInTable="variedadColumn" msprop:Generator_UserColumnName="variedad" type="xs:string" minOccurs="0" />
+              <xs:element name="bulbo" msprop:Generator_ColumnVarNameInTable="columnbulbo" msprop:Generator_ColumnPropNameInRow="bulbo" msprop:Generator_ColumnPropNameInTable="bulboColumn" msprop:Generator_UserColumnName="bulbo" type="xs:string" minOccurs="0" />
+              <xs:element name="proveedor" msprop:Generator_ColumnVarNameInTable="columnproveedor" msprop:Generator_ColumnPropNameInRow="proveedor" msprop:Generator_ColumnPropNameInTable="proveedorColumn" msprop:Generator_UserColumnName="proveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="recolector" msprop:Generator_ColumnVarNameInTable="columnrecolector" msprop:Generator_ColumnPropNameInRow="recolector" msprop:Generator_ColumnPropNameInTable="recolectorColumn" msprop:Generator_UserColumnName="recolector" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
